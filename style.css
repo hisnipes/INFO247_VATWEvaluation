@@ -1,7 +1,6 @@
 /*
  Theme Name:   Twenty Sixteen Child
  Description:  Twenty Sixteen Child Theme
- Author:       John Doe
  Author URI:   http://example.com
  Template:     twentysixteen
  Version:      1.0.0
@@ -9,3 +8,47 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  twenty-sixteen-child
 */
+
+@import url("../twentysixteen/style.css");
+
+body, button, input, select, textarea {
+	background-color: #eeeeee;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+.site-header {
+	padding: 1.25em;
+}
+
+@media screen and (min-width: 61.5625em) {
+	.site-header {
+		padding: 1.25em 4.5455%;
+	}
+}
+
+@media screen and (min-width: 44.375em) {
+	.site-header {
+		padding: 1.25em 4.5455%;
+	}
+}
+
+@media screen and (min-width: 56.875em) {
+	.content-area {
+		float: left;
+   		margin-right: -100%;
+   		width: 100%;
+	}
+}
+
+body .gform_wrapper ul li.gfield.gfield_html img {
+    max-width: 100%!important;
+}
+
+.site-header-main {
+	border-bottom: 8px solid #eee;
+	margin: 10px 0px;
+}
